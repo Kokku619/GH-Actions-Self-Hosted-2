@@ -1,0 +1,11 @@
+name: GHA-Test2-on-SelfHostedRunner
+
+on:
+  push
+jobs:
+  first_job:
+    runs-on: self-hosted
+    
+    steps:
+      - name: message
+        run: echo "Welcome to the GitHub-Actions by Kokku Nagaraju"
